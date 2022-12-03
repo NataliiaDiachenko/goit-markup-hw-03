@@ -1,0 +1,341 @@
+/*========= Основна палітра =========*/
+
+:root {
+  --color-dark: #000000;
+  --color-primary-text: #757575;
+  --color-title-text: #212121;
+  --color-white-text: #ffffff;
+  --color-action: #2196f3;
+  --color-blue-button: #188ce8;
+  --color-secondary-button: #f5f4fa;
+  --color-white-background: #ffffff;
+  --color-secondary-background: #f5f4fa;
+  --color-futter-background: #2f303a;
+}
+
+.body {
+  color: var(--color-primary-text);
+  font-family: Roboto, sans-serif;
+  background-color: var(--color-white-background);
+  font-size: 14px;
+}
+
+.section-title {
+  color: var(--color-title-text);
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.container {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section.no-padding {
+  padding-top: 0px;
+}
+
+/* =========ГОЛОВНА СТОРІНКА========= */
+
+/*========= Шапка сайту=========*/
+
+.logo {
+  color: var(--color-dark);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.accent {
+  color: var(--color-action);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.site-nav .link {
+  color: var(--color-title-text);
+  font-weight: 500;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--color-action);
+}
+
+.auth-nav .link {
+  color: var(--color-primary-text);
+  font-weight: 500;
+  line-height: 1.15;
+  text-decoration: none;
+}
+
+.site-nav .link.current {
+  color: var(--color-action);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--color-action);
+}
+
+/* =========Герой =========*/
+
+.hero {
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0;
+}
+
+.hero-title {
+  color: var(--color-white-text);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.button-hero {
+  color: var(--color-white-background);
+  background-color: var(--color-action);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: 1 px solid var(--color-action);
+  border-radius: 4px;
+  padding-left: 32px;
+  padding-right: 32px;
+  min-width: 216px;
+  min-height: 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+.hero {
+  background-color: var(--color-futter-background);
+}
+
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--color-blue-button);
+}
+
+/* =========Наші переваги =========*/
+
+.feature-title {
+  color: var(--color-title-text);
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.feature-text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.feature-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* =========Чим ми займаємося========= */
+
+.services-list {
+  list-style: none;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+/*========= Наша команда========= */
+
+.section.team {
+  background-color: var(--color-secondary-background);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team-list {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.team-list .title {
+  color: var(--color-title-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.team-list {
+  list-style: none;
+}
+
+.employee {
+  background-color: var(--color-white-background);
+  width: 270px;
+}
+
+.section-team. title {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.team-position {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+/* =========Footer =========*/
+
+.footer {
+  background-color: var(--color-futter-background);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-list {
+  list-style: none;
+  line-height: 24px;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.link-adress {
+  color: var(--color-white-text);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-top: 0px;
+  margin-bottom: 9px;
+}
+
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--color-action);
+}
+
+.accent-wiht {
+  color: var(--color-white-text);
+}
+
+.correctly {
+  margin-bottom: 9px;
+}
+
+/*========= PORTFOLIO PAGE=========*/
+
+/* =========Поекти=========*/
+
+.button-direction {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.62;
+  font-family: inherit;
+  list-style: none;
+  border: none;
+  cursor: pointer;
+}
+
+.button-direction:hover,
+.button-direction:focus {
+  color: var(--color-white-text);
+  background-color: var(--color-action);
+}
+
+.direction-list {
+  list-style: none;
+  color: var(--color-white-text);
+}
+
+.projects-list {
+  list-style: none;
+  margin-top: 34px;
+  margin-bottom: 0;
+}
+
+.projects-title {
+  color: var(--color-title-text);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  padding-top: 20px;
+  margin-bottom: 4px;
+}
+
+.projects {
+  background-color: var(--color-white-background);
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.direction {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  margin-top: 0;
+  padding-bottom: 20px;
+}
